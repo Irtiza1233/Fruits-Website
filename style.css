@@ -1,0 +1,385 @@
+.navbar {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-text {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.fruit-card img {
+    width: 30%;
+    height: auto;
+}
+
+.fruit-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fruit-card h3,
+.fruit-card p {
+    text-align: center;
+}
+
+.navbar img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #e91414;
+    margin: 0 10px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-text {
+        margin-bottom: 0;
+    }
+}
+
+#container {
+    width: 100%;
+    display: flex;
+}
+
+#left-div,
+#right-div {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    #container {
+        flex-direction: column;
+    }
+}
+
+.light-red-btn,
+.black-btn {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.light-red-btn {
+    background-color: lightcoral;
+    color: white;
+}
+
+.black-btn {
+    background-color: black;
+    color: white;
+}
+
+.light-red-btn:hover,
+.black-btn:hover {
+    background-color: #ff6347;
+}
+
+.welcome-text {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .welcome-text {
+        font-size: 40px;
+    }
+}
+
+#left-div p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.fruit-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fruit-card img {
+    max-width: 100%;
+}
+
+.fruit-card button {
+    margin-top: 15px;
+}
+
+#services-section {
+    text-align: center;
+}
+
+#fresh-fruits-section {
+    text-align: left;
+}
+
+.fruit-info {
+    padding: 20px;
+}
+
+.fruit-info button {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+.fruit-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+
+#two-divs-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-div {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.right-div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.right-div img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 0.9em;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section img {
+    width: 30px;
+    margin-right: 10px;
+}
+.fa-brands{
+    color: black;
+    font-size: 25px;
+}
+.fab {
+    color: black;
+    font-size: 25px;
+}
+.social-icons f{
+    display: flex;
+
+ 
+    padding-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    outline: none;
+}
+
+form button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+}
+
+#corner-image {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+#corner-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.footer-section-text {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.footer-section p {
+    font-size: large;
+    margin: 0;
+}
+
+.testimonial-content {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+.testimonial-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #495057;
+}
+
+.testimonial-content:before,
+.testimonial-content:after {
+    content: '\201C';
+    font-size: 30px;
+    color: #007bff;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.testimonial-content:after {
+    content: '\201D';
+    margin-left: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+@media (min-width: 600px) {
+    .footer-section {
+        width: 48%; /* Two columns on screens wider than 600px */
+    }
+}
+
+@media (min-width: 900px) {
+    .footer-section {
+        width: 23%; /* Four columns on screens wider than 900px */
+    }
+}
+
+/* Optional: Adjust the styles for better appearance */
+.footer-section h3 {
+    color: #333;
+}
+
+.footer-section p {
+    color: #666;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 5px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+/* Additional styling for the subscribe form if needed */
+#subscribe-email {
+    padding: 5px;
+    margin-bottom: 5px;
+}
